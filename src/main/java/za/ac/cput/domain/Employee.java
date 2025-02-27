@@ -15,10 +15,7 @@ public class Employee {
         this.surName = builder.surName;
     }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
+
 
     public String getSurName() {
         return surName;
